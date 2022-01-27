@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&family=Poiret+One&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 30px;
+  width: 30%;
+  height: 400px;
+  background: rgba(58, 151, 112, 0.7);
+  padding: 20px;
+  color: #141414;
+}
+
+.container h1 {
+  text-align: center;
+}
+
+.container h1 span {
+  font-size: 50px;
+  color: #eeeaea;
+}
+
+.container p {
+  line-height: 1.5;
+  font-weight: 500;
+  font-style: 20px;
+  text-align: justify;
+}
+
+.container p a {
+  text-decoration: none;
+  color: #bb2840;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 80%;
+  }
+}
+/*# sourceMappingURL=stylefour.css.map */
